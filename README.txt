@@ -49,6 +49,6 @@ Readme:
 ------------------------------------------------------------------
 Тестовый аккаунт почтового сервиса Yandex:
 
-login: Yand3xOpenTest2@yandex.ru
+login: Yand3xOpenTest3@yandex.ru
 password: testOpenTest1
 ------------------------------------------------------------------
