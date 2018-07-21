@@ -19,7 +19,7 @@ public class RunTest extends YandexMainPage {
     @After
     public void end() {
         //Закрываем браузер после окончания любого теста
-        driver.close();
+//        driver.close();
     }
 
     @Test
@@ -143,6 +143,7 @@ public class RunTest extends YandexMainPage {
         FavoritesLetters.favoriteReady();
         log.info("Подтверждаем выполнение действий");
         FavoritesLetters.checkFavoriteLetter();
+        log.info("Проверка на пометку ИЗБРАННОЕ прошла успешно.");
     }
 
 }

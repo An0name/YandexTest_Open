@@ -1,15 +1,13 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import utility.DriverLoad;
 import java.util.concurrent.TimeUnit;
 
 public class YandexMainPage extends DriverLoad {
 
     static String mainURL = "https://yandex.ru/";
-    static String loginYandexMail = "Yand3xOpenTest2@yandex.ru";
+    static String loginYandexMail = "Yand3xOpenTest3@yandex.ru";
     static String passYandexMail = "testOpenTest1";
     static String theme = "Новая тема сообщения";
 

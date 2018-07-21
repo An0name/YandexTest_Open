@@ -10,7 +10,7 @@ public class DeleteLetterYandex extends YandexMainPage{
     protected static void inboxLetter() {
         //ожидание выполнения кода, для того, чтобы письмо пришло в папку "Входящие"
         try {
-            TimeUnit.SECONDS.sleep(3);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
