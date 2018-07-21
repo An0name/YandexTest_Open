@@ -19,7 +19,7 @@ public class RunTest extends YandexMainPage {
     @After
     public void end() {
         //Закрываем браузер после окончания любого теста
-//        driver.close();
+        driver.close();
     }
 
     @Test
