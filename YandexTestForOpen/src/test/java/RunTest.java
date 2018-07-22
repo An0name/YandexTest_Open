@@ -19,7 +19,7 @@ public class RunTest extends YandexMainPage {
     @After
     public void end() {
         //Закрываем браузер после окончания любого теста
-        driver.close();
+//        driver.close();
     }
 
     @Test
@@ -34,8 +34,8 @@ public class RunTest extends YandexMainPage {
         log.info("Пароль введен");
         YandexMainPage.enterMail();
         log.info("Вход выполнен");
-        MailYandex.lightVersion();
-        log.info("Перешли в легкую версию");
+        MailYandex.normalVersion();
+        log.info("Перешли в обычную версию");
         MailYandex.writeLetter();
         log.info("Написать сообщение выбрано");
         MailYandex.forWhom();
@@ -60,8 +60,8 @@ public class RunTest extends YandexMainPage {
         log.info("Пароль введен");
         YandexMainPage.enterMail();
         log.info("Вход выполнен");
-        MailYandex.lightVersion();
-        log.info("Перешли в легкую версию");
+        MailYandex.normalVersion();
+        log.info("Перешли в обычную версию");
         DeleteLetterYandex.inboxLetter();
         log.info("Перешли во Входящие");
         DeleteLetterYandex.clickLetter();
@@ -84,8 +84,8 @@ public class RunTest extends YandexMainPage {
         log.info("Пароль введен");
         YandexMainPage.enterMail();
         log.info("Вход выполнен");
-        MailYandex.lightVersion();
-        log.info("Перешли в легкую версию");
+        MailYandex.normalVersion();
+        log.info("Перешли в обычную версию");
         MoveLetter.moveLetter();
         log.info("Перешли в папку Удаленные");
         MoveLetter.firstLetter();
@@ -110,8 +110,8 @@ public class RunTest extends YandexMainPage {
         log.info("Пароль введен");
         YandexMainPage.enterMail();
         log.info("Вход выполнен");
-        MailYandex.lightVersion();
-        log.info("Перешли в легкую версию");
+        MailYandex.normalVersion();
+        log.info("Перешли в обычную версию");
         ToFindLetter.searchEnter();
         log.info("Начало поиска письма по теме: "+theme);
         ToFindLetter.checkSearchLetter();
@@ -130,8 +130,8 @@ public class RunTest extends YandexMainPage {
         log.info("Пароль введен");
         YandexMainPage.enterMail();
         log.info("Вход выполнен");
-        MailYandex.lightVersion();
-        log.info("Перешли в легкую версию");
+        MailYandex.normalVersion();
+        log.info("Перешли в обычную версию");
         ToFindLetter.searchEnter();
         log.info("Начало поиска письма по теме: "+theme);
         FavoritesLetters.favoritsLetter();

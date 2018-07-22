@@ -9,9 +9,9 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 public class MailYandex extends YandexMainPage {
     static WebDriverWait wait = new WebDriverWait(driver, 10);
 
-    protected static void lightVersion() {
-        WebElement light = wait.until(visibilityOfElementLocated(By.linkText("Лёгкая версия")));
-        light.click();
+    protected static void normalVersion() {
+        WebElement normal = wait.until(visibilityOfElementLocated(By.linkText("Лёгкая версия")));
+        normal.click();
     }
 
     protected static void writeLetter() {
